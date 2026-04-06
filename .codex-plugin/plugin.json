@@ -1,0 +1,41 @@
+{
+  "name": "codex-macos-notifier",
+  "version": "0.1.0",
+  "description": "macOS notifications for Codex approval-like Bash commands and turn completion.",
+  "author": {
+    "name": "Tang Xiaofeng",
+    "email": "[TODO: add-contact-email]",
+    "url": "https://github.com/tangxiaofeng"
+  },
+  "homepage": "https://github.com/tangxiaofeng/codex-macos-notifier",
+  "repository": "https://github.com/tangxiaofeng/codex-macos-notifier",
+  "license": "[TODO: choose-license]",
+  "keywords": [
+    "codex",
+    "plugin",
+    "macos",
+    "notifications",
+    "hooks"
+  ],
+  "skills": "./skills/",
+  "hooks": "./hooks.json",
+  "interface": {
+    "displayName": "Codex macOS Notifier",
+    "shortDescription": "macOS notifications for approval-like commands and reply completion.",
+    "longDescription": "Sends macOS notifications when Codex is about to run risky Bash commands and when a Codex turn finishes.",
+    "developerName": "Tang Xiaofeng",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://github.com/tangxiaofeng/codex-macos-notifier",
+    "privacyPolicyURL": "https://github.com/tangxiaofeng/codex-macos-notifier#privacy",
+    "termsOfServiceURL": "https://github.com/tangxiaofeng/codex-macos-notifier#terms",
+    "defaultPrompt": [
+      "Notify me when Codex likely needs approval.",
+      "Notify me when a Codex turn finishes.",
+      "Explain how this notifier plugin works."
+    ],
+    "brandColor": "#2563EB"
+  }
+}
