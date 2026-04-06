@@ -108,6 +108,7 @@ This plugin does not send network requests. It only reads Codex hook payloads an
 ## Terms
 
 This repository is provided as-is. Review and test it before using it in your own Codex environment.
+This code was written entirely by AI; the author does not fully know what the AI wrote, only that the final result works.
 
 ## Publishing checklist
 
